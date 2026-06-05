@@ -1,0 +1,6 @@
+rm -f figs3.aux figs3.log figs3.pdf figs3.png figs3-1.png
+pdflatex -interaction=nonstopmode figs3.tex
+pdftoppm -png -r 600 figs3.pdf figs3
+mv figs3-1.png figs3.png
+pdflatex -interaction=nonstopmode figs3.tex
+

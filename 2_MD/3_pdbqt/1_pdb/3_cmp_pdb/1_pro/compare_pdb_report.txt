@@ -1,0 +1,34 @@
+REF_DIR    : /mnt/SSD/kun/job/22_QSBVS/2026_04_25/2_MD/3_pdbqt/1_pdb/2_pro/pdb
+TARGET_DIR : /mnt/SSD/kun/job/22_QSBVS/2026_04_25/2_MD/3_pdbqt/1_pdb/1_comp/pdb
+
+[SAME] 1ecq_pro.pdb
+[SAME] 1h0r_pro.pdb
+[SAME] 1i2s_pro.pdb
+[SAME] 1lrh_pro.pdb
+[SAME] 1we2_pro.pdb
+[SAME] 1wht_pro.pdb
+[SAME] 2aa9_pro.pdb
+[SAME] 2ael_pro.pdb
+[SAME] 2ay4_pro.pdb
+[SAME] 2bjm_pro.pdb
+[SAME] 2gtv_pro.pdb
+[SAME] 2os9_pro.pdb
+[SAME] 2q9y_pro.pdb
+[SAME] 2ybk_pro.pdb
+[SAME] 2ybs_pro.pdb
+[SAME] 3b9s_pro.pdb
+[SAME] 4bg1_pro.pdb
+[SAME] 4de5_pro.pdb
+[SAME] 4gui_pro.pdb
+[SAME] 4lm3_pro.pdb
+[SAME] 4pnc_pro.pdb
+[SAME] 6cjw_pro.pdb
+[SAME] 6dhu_pro.pdb
+[SAME] 6o4x_pro.pdb
+
+[SUMMARY]
+total_ref_files : 24
+same            : 24
+diff            : 0
+missing         : 0
+extra_in_target : 0

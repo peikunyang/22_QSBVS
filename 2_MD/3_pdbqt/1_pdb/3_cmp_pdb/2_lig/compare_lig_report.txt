@@ -1,0 +1,37 @@
+REF_DIR    : /mnt/SSD/kun/job/22_QSBVS/2026_04_25/2_MD/3_pdbqt/1_pdb/3_lig/pdb
+TARGET_DIR : /mnt/SSD/kun/job/22_QSBVS/2026_04_25/2_MD/3_pdbqt/1_pdb/1_comp/pdb
+PATTERN    : *_lig.pdb
+
+
+[EXTRA FILES ONLY IN TARGET]
+1ecq_lig.pdb
+1h0r_lig.pdb
+1i2s_lig.pdb
+1lrh_lig.pdb
+1we2_lig.pdb
+1wht_lig.pdb
+2aa9_lig.pdb
+2ael_lig.pdb
+2ay4_lig.pdb
+2bjm_lig.pdb
+2gtv_lig.pdb
+2os9_lig.pdb
+2q9y_lig.pdb
+2ybk_lig.pdb
+2ybs_lig.pdb
+3b9s_lig.pdb
+4bg1_lig.pdb
+4de5_lig.pdb
+4gui_lig.pdb
+4lm3_lig.pdb
+4pnc_lig.pdb
+6cjw_lig.pdb
+6dhu_lig.pdb
+6o4x_lig.pdb
+
+[SUMMARY]
+total_ref_files : 0
+same            : 0
+diff            : 0
+missing         : 0
+extra_in_target : 24

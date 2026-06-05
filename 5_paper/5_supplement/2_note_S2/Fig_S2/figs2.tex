@@ -1,0 +1,24 @@
+\documentclass[tikz,border=6pt]{standalone}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{quantikz}
+
+\newcommand{\lab}[2]{\makebox[1.55cm][r]{#1}\hspace{0.25cm}\makebox[1.25cm][l]{#2}}
+
+\begin{document}
+\begin{quantikz}[row sep=0.18cm, column sep=0.22cm]
+\lstick{\lab{$q_{17}$}{$t^{z,-4}$}} & \gate{H} & \ctrl{9} & \qw & \qw & \qw & \qw & \qw & \qw & \qw & \qw & \qw & \meter{} & \qw \\
+\lstick{\lab{$q_{16}$}{$t^{z,2}$}}  & \gate{H} & \qw & \ctrl{8} & \qw & \qw & \qw & \qw & \qw & \qw & \qw & \qw & \meter{} & \qw \\
+\lstick{\lab{$q_{15}$}{$t^{z,1}$}}  & \gate{H} & \qw & \qw & \ctrl{7} & \qw & \qw & \qw & \qw & \qw & \qw & \qw & \meter{} & \qw \\
+\lstick{\lab{$q_{14}$}{$t^{y,-4}$}} & \gate{H} & \qw & \qw & \qw & \ctrl{7} & \qw & \qw & \qw & \qw & \qw & \qw & \meter{} & \qw \\
+\lstick{\lab{$q_{13}$}{$t^{y,2}$}}  & \gate{H} & \qw & \qw & \qw & \qw & \ctrl{6} & \qw & \qw & \qw & \qw & \qw & \meter{} & \qw \\
+\lstick{\lab{$q_{12}$}{$t^{y,1}$}}  & \gate{H} & \qw & \qw & \qw & \qw & \qw & \ctrl{5} & \qw & \qw & \qw & \qw & \meter{} & \qw \\
+\lstick{\lab{$q_{11}$}{$t^{x,-4}$}} & \gate{H} & \qw & \qw & \qw & \qw & \qw & \qw & \ctrl{5} & \qw & \qw & \qw & \meter{} & \qw \\
+\lstick{\lab{$q_{10}$}{$t^{x,2}$}}  & \gate{H} & \qw & \qw & \qw & \qw & \qw & \qw & \qw & \ctrl{4} & \qw & \qw & \meter{} & \qw \\
+\lstick{\lab{$q_{9}$}{$t^{x,1}$}}   & \gate{H} & \qw & \qw & \qw & \qw & \qw & \qw & \qw & \qw & \ctrl{3} & \qw & \meter{} & \qw \\[0.08cm]
+\lstick{\lab{$q_{6}\text{--}q_{8}$}{$N^z$}} & \qw & \gate{T(-4)} & \gate{T(2)} & \gate{T(1)} & \qw & \qw & \qw & \qw & \qw & \qw & \qw & \meter{} & \qw \\
+\lstick{\lab{$q_{3}\text{--}q_{5}$}{$N^y$}} & \qw & \qw & \qw & \qw & \gate{T(-4)} & \gate{T(2)} & \gate{T(1)} & \qw & \qw & \qw & \qw & \meter{} & \qw \\
+\lstick{\lab{$q_{0}\text{--}q_{2}$}{$N^x$}} & \qw & \qw & \qw & \qw & \qw & \qw & \qw & \gate{T(-4)} & \gate{T(2)} & \gate{T(1)} & \qw & \meter{} & \qw
+\end{quantikz}
+\end{document}

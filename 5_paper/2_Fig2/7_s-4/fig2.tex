@@ -1,0 +1,14 @@
+\documentclass[tikz,border=6pt]{standalone}
+\usepackage{quantikz}
+\usepackage{amsmath}
+
+\begin{document}
+
+\begin{quantikz}[row sep=0.40cm, column sep=0.60cm]
+\lstick{$q_3$} & \qw      & \targ{}   & \qw \\
+\lstick{$q_2$} & \gate{X} & \ctrl{-1} & \qw \\
+\lstick{$q_1$} & \qw      & \qw       & \qw \\
+\lstick{$q_0$} & \qw      & \qw       & \qw
+\end{quantikz}
+
+\end{document}

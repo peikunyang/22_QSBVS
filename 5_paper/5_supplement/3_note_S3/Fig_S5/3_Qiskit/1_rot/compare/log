@@ -1,0 +1,7 @@
+wrote E/cmp
+pytorch file   = ../../../4_Energy/2_Q32/E/ene_1/map_0/1ecq_0/1ecq_0_1ecq.ene
+qiskit file    = ../E/1ecq_0_1ecq
+matched rows   = 256
+missing rows   = 0
+x column       = qiskit_energy
+y column       = pytorch_energy

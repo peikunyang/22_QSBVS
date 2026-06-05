@@ -1,0 +1,2 @@
+python ene.py --map_root ../2_map/map --occ_root ../3_occ/1_chg/occ --out_dir E 
+

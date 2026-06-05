@@ -1,0 +1,15 @@
+npts 33 33 33
+parameter_file AD4_parameters.dat
+gridfld 1ecq_pro_0.maps.fld
+spacing 0.375
+gridcenter 0.0 0.0 0.0
+smooth 0.500
+receptor_types N HD C OA A SA NA
+ligand_types C OA HD
+receptor 1ecq_pro_0.pdbqt
+map 1ecq_pro_0.C.map
+map 1ecq_pro_0.OA.map
+map 1ecq_pro_0.HD.map
+elecmap 1ecq_pro_0.e.map
+dsolvmap 1ecq_pro_0.d.map
+dielectric -0.1465

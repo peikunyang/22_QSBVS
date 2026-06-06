@@ -7,6 +7,8 @@ Author: Pei-Kun Yang
 This repository contains the workflow, scripts, datasets, and analysis codes associated with the study:
 
 Pei-Kun Yang. Quantum-Compatible AutoDock Grid Energy Evaluation for Multi-Receptor, Multi-Ligand, and Multi-Pose Protein–Ligand Scoring.
+📧 E-mail: [peikun@isu.edu.tw](mailto:peikun@isu.edu.tw)  
+🆔 ORCID: [0000-0003-1840-6204](https://orcid.org/0000-0003-1840-6204)
 
 ## Workflow
 

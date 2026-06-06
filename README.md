@@ -1,6 +1,12 @@
 # 22_QSBVS
 
-This repository contains the workflow and supporting scripts for a quantum-compatible structure-based virtual screening (QSBVS) study. The project focuses on reformulating AutoDock-style grid-based protein-ligand energy evaluation as an inner-product calculation that can be compared between classical grid calculations and quantum-compatible probability-derived energy recovery.
+Quantum-Compatible AutoDock Grid Energy Evaluation for Multi-Receptor, Multi-Ligand, and Multi-Pose Protein–Ligand Scoring
+
+Author: Pei-Kun Yang
+
+This repository contains the workflow, scripts, datasets, and analysis codes associated with the study:
+
+Pei-Kun Yang. Quantum-Compatible AutoDock Grid Energy Evaluation for Multi-Receptor, Multi-Ligand, and Multi-Pose Protein–Ligand Scoring.
 
 ## Workflow
 

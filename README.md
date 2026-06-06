@@ -1,6 +1,4 @@
-# QSBVS
-
-Quantum-Compatible AutoDock Grid Energy Evaluation for Multi-Receptor, Multi-Ligand, and Multi-Pose Protein–Ligand Scoring
+# Quantum-Compatible AutoDock Grid Energy Evaluation for Multi-Receptor, Multi-Ligand, and Multi-Pose Protein–Ligand Scoring
 
 Author: Pei-Kun Yang
 

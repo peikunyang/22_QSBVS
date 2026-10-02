@@ -25,10 +25,6 @@ AutoDock-style receptor energy maps are generated for the selected protein confo
 
 The same grid-based energy evaluation is reformulated as a quantum-compatible inner-product calculation. Receptor maps and ligand grids are encoded as normalized vectors, and probability-derived energy recovery is used to mimic the Hadamard-test-based quantum readout. The workflow also evaluates finite-shot effects and map-truncation effects.
 
-### 5. Prepare results for publication
-
-The scripts and generated outputs support figure preparation, numerical analysis, validation, and manuscript preparation for publication. The repository is intended to provide the reference implementation and supporting workflow for the QSBVS study.
-
 ## Repository structure
 
 ```text
@@ -36,7 +32,6 @@ The scripts and generated outputs support figure preparation, numerical analysis
 2_MD/          Molecular dynamics preparation and simulation workflow
 3_Autodock/    AutoDock-related preparation and map generation
 4_Energy/      Classical and quantum-compatible energy calculations
-5_paper/       Analysis outputs, figures, and publication-related files
 ```
 
 ## License
